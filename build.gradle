@@ -1,0 +1,10 @@
+plugins{
+    id 'java'
+    id 'war'
+}
+
+task 'hello'{
+    doLast{
+        println "Hello Gradle"
+    }
+}
